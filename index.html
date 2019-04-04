@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>P03 - Style Guide Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="big-box">
+
+    <header>
+      <h1>P01 - Style Guide Template for Profolio</h1>
+
+      <div class="container">   
+      <div class="block">    
+        <a href="#interactive_elements">Interactive Elements</a>
+      </div>
+      <div class="block">    
+        <a href="#text_elements">Text Elements</a>
+      </div>
+      <div class="block">    
+        <a href="#combined_elements">Combined Elements</a>
+      </div>
+      </div>
+
+   </header>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.intext-link</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;&lt;a href="#" class="intex-link"&gt;in-text link&lt;/a&gt;&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p><a href="#" class="intext-link">in-text link</a></p>
+      </section>
+
+
+  
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.input-label</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;label class="input-label"&gt;&lt;/label&gt;&lt;input class="input-box" type="text"&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <label class="input-label">Enter Your Text Input:</label>
+        <input type="text">
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.work-image</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#"&gt;&lt;img class="work-image"  alt="image" src="img/imgone.png" width="474" height="250"&gt;&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <!-- <a href="#"><img class="work-image"  alt="image" src="img/imgone.png" width="1250" height="650"></a> -->
+        <div class="small-box">
+   <div class="flex-box-two">
+    <div>
+      <a href="#">
+    <img src="img/imgone.png" alt="Denim Jeans"> 
+  </a>
+  </div>
+   </div>
+   <div class="flex-box-two">
+    <div>
+    <h2>Character</h2>
+        <p>The story is Robot RX-78 lives with his master who is a little melancholy girl in the future world on the earth. In the future, there are lots of robots living in the world. Where RX-78 lives in is a small but flourishing city.
+        </p>
+  </div>
+   </div>
+</div>
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.heading-1</p>
+        <p>.heading-2</p>
+        <p>.heading-3</p>
+        <p>.heading-4</p>
+
+
+        <h4>Sample code:</h4>
+        <code>&lt;h1 class="heading-1"&gt;Header Level 1&lt;/h1&gt;</code>
+        <code>&lt;h2 class="heading-2"&gt;Header Level 2&lt;/h2&gt;</code>
+        <code>&lt;h3 class="heading-3"&gt;Header Level 3&lt;/h3&gt;</code>
+        <code>&lt;h4 class="heading-4"&gt;Header Level 4&lt;/h4&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h1 class="header-1">Header Level 1</h1>
+        <h2 class="header-2">Header Level 2</h2>
+        <h3 class="header-3">Header Level 3</h3>
+        <h4 class="header-4">Header Level 4</h4>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.text-para</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p class="text-para"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p class="text-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </section>
+
+      <section class="element">
+        <h3>Bulleted Lists</h3>
+        <h4>CSS selector:</h4>
+        <p>.bulleted</p>
+        <h4>Sample code:</h4>
+        <code>&lt;ul class="bulleted"&gt;&lt;/li&gt;Bulleted List 1&lt;/li&gt; &lt;/li&gt;Bulleted List 2&lt;/li&gt; &lt;/li&gt;Bulleted List 3&lt;/li&gt;&lt;/ul&gt;</code>
+        <h4>Rendered element:</h4>
+        <ul class="bulleted">
+          <li>Bulleted List 1</li>
+          <li>Bulleted List 2</li>
+          <li>Bulleted List 3</li>
+        </ul>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.list-num</p>
+
+        <h4 class="sample-code">Sample code:</h4>
+        <code>&lt;ol class="list-num"&gt;&lt;/li&gt;Number List 1&lt;/li&gt; &lt;/li&gt;Number List 2&lt;/li&gt; &lt;/li&gt;Number List 3&lt;/li&gt;&lt;/ol&gt;</code>
+
+
+        <h4>Rendered element:</h4>
+        <ol class="list-num">
+          <li>Number List 1</li>
+          <li>Number List 2</li>
+          <li>Number List 3</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <h4>CSS selector:</h4>
+        <p>.buttom-nav</p>
+
+        <h4 class="sample-code">Sample code:</h4>
+        <code>&lt;div class="nav-main"&gt;
+          &lt;a href="#"&gt;HOME&lt;/a&gt;
+          &lt;a href="#"&gt;ABOUT&lt;/a&gt;
+          &lt;a href="#"&gt;PROJECTS&lt;/a&gt;
+          &lt;a href="#"&gt;CONTACT&lt;/a&gt;
+          &lt;/div&gt;</code>
+        <h4>Rendered element:</h4>
+        <div>
+      <nav class="navigation"style="position:relative;">
+       <label for="toggle">&#9776;</label>
+       <input type="checkbox" id="toggle"/>
+       <div class="menu">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">PROJECTS</a>
+        <a href="#">CONTACT</a>
+      </div>
+    </nav>
+  </div>
+</section>
+    </section>
+
+
+ <section id="combined_elements">
+      <h2>Citations</h2>
+
+     <section class="element"> 
+         <ul id="citation">
+          <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+          <li>Matteson, Steve. Designer. 2011. <strong>Fonts</strong>. Retrieved from <a href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+          <li>Caler Edwards. 2017. <strong>Responisve menu tutorial</strong>. Retrieved from <a href="https://www.youtube.com/watch?v=xMTs8tAapnQ">https://www.youtube.com/watch?v=xMTs8tAapnQ</a></li>
+          <li>Big Can. 2018. <strong>flex box tutorial</strong>. Retrieved from <a href="https://www.youtube.com/watch?v=e6rZDyURgTY&t=632s">https://www.youtube.com/watch?v=e6rZDyURgTY&t=632s</a></li>
+         </ul>
+      </section>
+      </section>
+</div>
+ <footer>
+  <div class="footer-menu">
+   <div class="footer-menu-link">
+    <a href="index.html"><p class="hov">style guide</p></a>
+    <a href="home.html"><p class="hov">Home</p></a>
+    <a href="index.html/#citation"><p class="hov">Citation</p></a>
+  </div>
+  </div>
+  <div class="footer-menu">
+    <p>Wanlin Chen (301294060)</p>
+  </div>
+</footer>
+  </body>
+  
+</html>
